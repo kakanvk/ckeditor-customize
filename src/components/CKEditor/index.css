@@ -1,0 +1,152 @@
+:root {
+    --ckeditor-background: #ffffff;
+    --ckeditor-background-secondary: #fafafa;
+    --ckeditor-background-figureCaption: #f0f0f0;
+    --ckeditor-color: #18181b;
+    --ckeditor-background-hover: #eaeaea;
+    --ckeditor-border: #dddddd;
+    --ckeditor-separator: #d0d0d0;
+    --ckeditor-button-on: #eaeaea;
+    --ckeditor-link: #16a34a;
+}
+
+.dark {
+    --ckeditor-background: #09090b;
+    --ckeditor-background-secondary: #111112;
+    --ckeditor-background-figureCaption: #111112;
+    --ckeditor-color: #d8d8d8;
+    --ckeditor-background-hover: #2f2f33;
+    --ckeditor-border: #3f3f46;
+    --ckeditor-separator: #5d5d5d;
+    --ckeditor-button-on: #2f2f33;
+    --ckeditor-link: #22c55e;
+}
+
+.main-container {
+    /* font-family: "Plus Jakarta Sans", sans-serif; */
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ck-content {
+    /* font-family: "Plus Jakarta Sans", sans-serif; */
+    line-height: 1.6;
+    word-break: break-word;
+}
+
+.ck-placeholder {
+    font-style: italic;
+}
+
+.ck-editor__main > .ck-editor__editable {
+    border-radius: 0 0 6px 6px !important;
+    background-color: var(--ckeditor-background) !important;
+    border: 1px solid var(--ckeditor-border) !important;
+    color: var(--ckeditor-color) !important;
+    padding-left: 15px;
+}
+
+.ck-sticky-panel__content {
+    border-radius: 6px 6px 0 0 !important;
+    border: 1px solid var(--ckeditor-border) !important;
+    border-bottom: 0 !important;
+    background-color: var(--ckeditor-background-secondary) !important;
+}
+
+.ck-sticky-panel__content .ck-toolbar {
+    background-color: var(--ckeditor-background-secondary) !important;
+    border-radius: 5px 5px 0 0 !important;
+}
+
+.ck-sticky-panel__content .ck-toolbar svg {
+    color: var(--ckeditor-color) !important;
+}
+
+.ck-sticky-panel__content .ck-toolbar button {
+    background-color: var(--ckeditor-background-secondary) !important;
+}
+
+.ck-sticky-panel__content .ck-toolbar button .ck-button__label {
+    color: var(--ckeditor-color) !important;
+}
+
+.ck-sticky-panel__content .ck-toolbar button:hover {
+    background-color: var(--ckeditor-background-hover) !important;
+}
+
+.ck-sticky-panel__content .ck-dropdown:hover > div > button {
+    background-color: var(--ckeditor-background-hover) !important;
+}
+
+.ck-sticky-panel__content .ck-toolbar__separator {
+    background-color: var(--ckeditor-separator) !important;
+}
+
+.ck-sticky-panel__content .ck-toolbar .ck-on {
+    background-color: var(--ckeditor-button-on) !important;
+}
+
+.ck-sticky-panel__content .ck-toolbar .ck-dropdown__panel {
+    background-color: var(--ckeditor-background) !important;
+}
+
+.ck-content a {
+    color: var(--ckeditor-link) !important;
+}
+
+.ck-content pre {
+    color: var(--ckeditor-color);
+    background-color: var(--ckeditor-background-figureCaption);
+}
+
+.ck-content ul, ol{
+    padding-inline-start: 40px;
+    margin: 5px 0;
+}
+
+.ck-content figure > figcaption {
+    color: var(--ckeditor-color) !important;
+    background-color: var(--ckeditor-background-figureCaption) !important;
+    font-style: italic;
+}
+
+.ck-image-insert-form button {
+    display: flex !important;
+    gap: 5px;
+}
+
+.ck-insert-table-dropdown__label,
+.ck-character-info__name,
+.ck-character-info__code,
+.ck-form__header__label {
+    color: var(--ckeditor-color) !important;
+}
+
+.ck-content pre.fancy-code {
+    border: 0;
+    border-radius: 8px;
+}
+
+.ck-powered-by-balloon {
+    display: none !important;
+}
+
+.ck-content pre.fancy-code::before {
+    content: "";
+    display: block;
+    height: 12px;
+    background: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NCAxMyI+CiAgPGNpcmNsZSBjeD0iNi41IiBjeT0iNi41IiByPSI2LjUiIGZpbGw9IiNGMzZCNUMiLz4KICA8Y2lyY2xlIGN4PSIyNi41IiBjeT0iNi41IiByPSI2LjUiIGZpbGw9IiNGOUJFNEQiLz4KICA8Y2lyY2xlIGN4PSI0Ny41IiBjeT0iNi41IiByPSI2LjUiIGZpbGw9IiM1NkM0NTMiLz4KPC9zdmc+Cg==);
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+}
+
+.ck-content pre.fancy-code-dark {
+    background: #222428;
+    color: #fff;
+}
+
+.ck-content pre.fancy-code-bright {
+    background: #dddfe0;
+    color: #000;
+}

@@ -1,0 +1,72 @@
+.Container {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--ckeditor-background) !important;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.Header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 20px 10px 20px;
+    color: var(--ckeditor-color) !important;
+}
+
+.Header > div {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 14px;
+}
+
+.Header a {
+    text-decoration: none;
+    color: var(--ckeditor-link) !important;
+    font-weight: bold;
+}
+
+.Header a:hover {
+    text-decoration: underline;
+}
+
+.Theme__Button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(0, 178, 56);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.App {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    gap: 20px;
+}
+
+.App > div {
+    width: 50%;
+}
+
+.App__Review {
+    padding: 20px;
+    border: 1px solid var(--ckeditor-border) !important;
+    border-radius: 6px;
+    background-color: var(--ckeditor-background) !important;
+    color: var(--ckeditor-color) !important;
+}
