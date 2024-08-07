@@ -1,4 +1,7 @@
 # The Customized Editor
+![Screenshot_7-8-2024_21562_localhost](https://github.com/user-attachments/assets/cff277a4-753b-42b5-9291-e46424833ba3)
+![Screenshot_7-8-2024_215615_localhost](https://github.com/user-attachments/assets/0aa61fa6-5304-49c5-a762-c94aa05dfbb3)
+
 ### What is this?
 A Simple Editor powered by [**CKEditor 5**](https://ckeditor.com/) and customed by [**kakanvk**](https://github.com/kakanvk)
 
